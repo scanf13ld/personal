@@ -10847,9 +10847,21 @@ section {
   padding-bottom: 9rem;
 }
 
-img {
+#profilepicture {
   border-radius: 10em;
   object-fit: cover;
   height: 100px;
   width: 100px;
+}
+
+.codedisplay {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+
+.codedisplay2 {
+  width: 50%;
+  height: 50%;
 }
