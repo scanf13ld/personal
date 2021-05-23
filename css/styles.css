@@ -10846,3 +10846,10 @@ section {
   padding-top: 9rem;
   padding-bottom: 9rem;
 }
+
+img {
+  border-radius: 10em;
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+}
