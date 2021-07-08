@@ -1,0 +1,101 @@
+html {
+  scroll-padding-top: 3.5rem;
+}
+
+header {
+  padding-top: 9.5rem;
+  padding-bottom: 6rem;
+}
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#profilepicture {
+  border-radius: 10em;
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.codedisplay {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+
+.codedisplay2 {
+  width: 50%;
+  height: 50%;
+}
+
+.codedisplay3 {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.codedisplay4 {
+  display: block;
+  margin: auto;
+  width: 70%;
+
+}
+
+/* quick reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-family: helvetica, arial, sans-serif;
+}
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(36, 62, 206, 0.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: .2s;
+  transform: translateY(1em);
+  display: block;
+  margin: auto;
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+
+.img__img {
+  display: block;
+  margin: auto;
+}
